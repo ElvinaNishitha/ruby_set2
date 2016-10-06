@@ -5,12 +5,10 @@
 # Create a class called arthmetic_operations and have all of the above modules made available inside the class - In separate file
 
 module Multiplication
-
-	def Car.go_fast(a,b)
-		@a=a
-		@b=b
-		c=a*b
-		puts c
+    M = true
+	def Multiplication.mul(m)
+		@m=m
+		puts "#{m}, Multiplication is available"
 		
 	end
 	

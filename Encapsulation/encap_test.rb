@@ -29,6 +29,7 @@ class Message
 	def groupChat(message)
 		puts "This is a Public Group"
 		puts message
+		sendPersonalMessage
 	end
 
 	private
@@ -64,4 +65,4 @@ end
 
 
 client = User.new
-
+client.groupChat("Hi Friends")

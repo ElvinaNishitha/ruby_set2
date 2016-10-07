@@ -3,7 +3,15 @@ require_relative 'div'
 require_relative 'add'
 require_relative 'sub'
 
-Multiplication.mul( Multiplication::M)
-Divide.div(Divide::D)
-Addition.add(Addition::A)
-Subtraction.sub(Subtraction::S)
+class Arithmetic
+	include Multiplication
+	include Divide
+	include Addition
+	include Subtraction
+end
+
+arith=Arithmetic.new
+arith.mul(true)
+arith.div(true)
+arith.add(true)
+arith.sub(true)

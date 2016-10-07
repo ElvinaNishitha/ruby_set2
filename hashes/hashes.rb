@@ -22,4 +22,6 @@
 
  # number = 'Inut From the user'
  prize = Lottery.new
- prize.getgifts(3)
+ puts "Choose a number"
+ val=gets.to_i
+ prize.getgifts(val)

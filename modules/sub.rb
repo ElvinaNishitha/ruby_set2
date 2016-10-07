@@ -1,7 +1,5 @@
 module Subtraction
-    S = true
-	def Subtraction.sub(s)
-		@s=s
+	def sub(s)
 		puts "#{s}, Subtraction is available"
 		
 	end

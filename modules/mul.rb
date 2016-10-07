@@ -5,11 +5,8 @@
 # Create a class called arthmetic_operations and have all of the above modules made available inside the class - In separate file
 
 module Multiplication
-    M = true
-	def Multiplication.mul(m)
-		@m=m
+	def mul(m)
 		puts "#{m}, Multiplication is available"
-		
 	end
 	
 end
